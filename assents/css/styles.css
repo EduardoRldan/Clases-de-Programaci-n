@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(234, 219, 219, 0.662);
+}
+.btn-color{
+    background-color: rgb(13, 13, 125);
+    color: rgb(218, 237, 253);
+    font-weight: bold;
+    text-transform: uppercase ;
+    border-radius:3.rem ;
+padding: 10px 15px;
+margin-bottom: 30px;
+}
+.btn-color:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    transition: .3s esase-in;
+}
+.btn-u{
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: .3rm;
+    margin-top: 30px;
+}
+.btn-u:hover{
+    cursor: pointer;
+    background-color: cadetblue;
+    color: white;
+    transition: .3s ease-out;
+}
+.text-white{
+    color: white;
+    margin-top: 10px;
+}
+.center-text{
+    text-align: center;
+    margin-top: 20px;
+}
+.found-blue{
+    background-color: blue;
+    margin-top: 30px;
+}
+.spaces-up{
+    margin-top: 40px;
+}
