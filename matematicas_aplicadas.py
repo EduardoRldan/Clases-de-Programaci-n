@@ -61,8 +61,17 @@ for i in range (5):
     b.append({-3*n+11})
     print(f'b{n}={b[i]}')"""
 
-b = []
+"""b = []
 for i in range (5):
     n=i+1
     b.append(-5*n+7)
-    print(f'b{n}={b[i]}')
+    print(f'b{n}={b[i]}')"""
+
+
+"""b = []
+for i in range (100):
+    n=i+100
+    b.append (6n(-1)**1)
+    print(f'b{n}={b[i]}')"""
+
+
