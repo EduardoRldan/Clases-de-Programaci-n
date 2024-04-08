@@ -75,3 +75,15 @@ for i in range (100):
     print(f'b{n}={b[i]}')"""
 
 
+"""b = []
+for i in range (1000):
+    n=i+10
+    b.append ((1+1/n)**n)
+    print(f'b{n}={b[i]}')"""
+
+
+b = []
+for i in range (1):
+        n=i+5
+        b.append (a*1+5)
+        print(f'b{n}={b[i]}')

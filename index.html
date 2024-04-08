@@ -3,46 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Web</title>
+    <title>Unliname Page</title>
 </head>
 <body>
-    <form action="/formulario " method="post">
-        <label for="Nombre">Nombre</label>
-        <input Nombre name="Nombre"" placeholder="Ingrese su Nombre" "/>
-        <br>
-        <br>
-        <label for="Apellido">Apellido</label>
-        <input type="text" name="Apellido" id="Apellido"
-        placeholder="Ingrese su Apellido">
-        <br>
-        <br>
-        <label for="Comentario">Comentario</label>
-        <br>
-        <textarea  rows="10" cols="15" Comentacio" id="Cometario" placeholder="Ingrese Comentario" name="Comentario"></textarea>
-        <br>
-        <input type="submit">
-        
-        
-    </form>
-    <h1>El Primer Heading</h1>
-    <h3>Decimo Heading</h3>
-    <h2>El segundo Heading</h2>
-    <h3>El tercer Heading</h3>
-    <h4>El cuarto Heading</h4>
-    <h5>EL Quinto Heading</h5>
-    <h6>El Sexto Heading</h6>
-    <p>Chanchito Feliz</p>
-    <p>Chanchito feliz está muy feliz</p>
-    <hr>
-    <h2>Chanchito Felipe</h2>
-    <p>
-        <span style="color: red;">texto es</span>  <span style="color: blue;">mucho más largo</span> con la etiqueta span
-    </p>
-    <a href="https://www.google.com" style="color:red;">Ir a Google</a>
-    <img src="assents/img/colo-colo.jpeg" alt="300px" width="250">
-    <table border="2">
+    <div class="container">
+        <div class="row">
+            <h1>Welcome</h1>
+        </div>
+    </div>
+    <div class="row">
+        <ul>
+            <li>Calabaza</li>
+            <li>Manzana</li>
+            <li>Mermelada</li>
+            <li>Termo con cafe</li>
+        </ul>
+    </div>
 
-    </table>
+    <div class="row">
+        <img src="assents/img/perrito1.jpeg" class="rounded mx-auto d-block" alt="Imagen de un Perrito">
+    </div>
+
+    <div class="row">
+        <div class="alert alert-warning" role="alert">Alerta con Formato!</div>
+    </div>
+
+    <div class="row">
+        <button type="button" class="btn btn-danger">Peligro!</button>
+    </div>
+
+    <nav class="navbar navbar-light bg-light">
+
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-ligth bg-light">
+        <a class="navbar-brand" href="#">navbar</a>
+        <button class="navbar-toggler" type="button" data-toglee="collapse" data-target="navbarSupportedContent" aria-expanded="false">
+            <span class="navbar-toggler"></span>
+        </button>
+
+        <div class="collapse navbar-collpse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Enlace</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle href="#" id="navbarDropdown" role="button" data-toglee="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Acción</a>
+                        <a class="dropdown-item" href="#">Otra Acción</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Otra cosa por acá</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Opcion Deshabilitada</a></li>
+            </ul>
+            <form class="from-inline my-2 my-lg-0">
+                <input class="from-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+        <div class="row">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carouael">
+                <div class="carouael-inner">
+                    <div carousel-item active>
+                        <img src="assents/img/perrito1.jpeg" class="d-block" alt="...">
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
 </body>
-    <
 </html>
